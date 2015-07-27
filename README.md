@@ -4,7 +4,7 @@ It will allow you to update your external ip with specfic subdomain at www.123-r
 
 Setup:
 Clone repo to root directory.
-Look at update_ip.js to change credentials. 
+Look at config.js to change credentials. 
 
 Run ./update_dns_ip to check if is working 
 
