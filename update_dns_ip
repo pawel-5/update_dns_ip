@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+if [ !  -d "$(pwd)/logs" ]; then
+   mkdir $(pwd)/logs
+fi 
+
+
+casperjs --cookies-file=cookies.txt --debug=false --ignore-ssl-errors=true update_dns_ip.js  >& logs/log_`date +%H_%M`.txt
+
+
